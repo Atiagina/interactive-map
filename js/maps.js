@@ -7,6 +7,7 @@ var animDurationA = winHeight * 2;
 var animDataA = {
         container: document.getElementById('aeropuertomap'),
         renderer: 'svg',
+		prerender: true,
         loop: false,
         autoplay: false,
         path: 'aeropuerto.json'
@@ -239,6 +240,24 @@ var animSA = lottie.loadAnimation(animDataSA);
 $( window ).scroll(function() {
 	animatebodymovin(animDurationSA, animSA, 30.3);
 });
+
+//xochimilco
+
+	var theWindow = $(window);
+var winHeight = theWindow.height();
+var animDurationX = winHeight * 2;
+var animDataX = {
+        container: document.getElementById('xochimilcomap'),
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        path: 'xochimilco.json'
+    };
+var animX = lottie.loadAnimation(animDataX);
+
+$( window ).scroll(function() {
+	animatebodymovin(animDurationX, animX, 32.8);
+});
 		
 	//tlalpan
 	
@@ -258,6 +277,24 @@ $( window ).scroll(function() {
 	animatebodymovin(animDurationTl, animTl, 35.2);
 });
 
+//ciudad universitaria
+
+	var theWindow = $(window);
+var winHeight = theWindow.height();
+var animDurationCU = winHeight * 2;
+var animDataCU = {
+        container: document.getElementById('ciudadunimap'),
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        path: 'ciudaduni.json'
+    };
+var animCU = lottie.loadAnimation(animDataCU);
+
+$( window ).scroll(function() {
+	animatebodymovin(animDurationCU, animCU, 38.5);
+});
+
 //satelite
 	
 		var theWindow = $(window);
@@ -275,6 +312,8 @@ var animSt = lottie.loadAnimation(animDataSt);
 $( window ).scroll(function() {
 	animatebodymovin(animDurationSt, animSt, 40);
 });
+
+
 
 
 		
