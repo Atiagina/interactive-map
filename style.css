@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*#animbody {
+			height: 700vh;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 0;
+		}*/
+		
+body {
+			overflow-x: hidden;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 0;
+			margin:0;
+		}
+		
+#map {
+			height: 100vh;
+			width: 100vw;
+		background-color: #e7e697;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+
+.map_description {
+	width: 40%;
+}
+.map_description h1 {
+	font-size: 4.5em;
+}
+.s_parent {
+	height: 250vh;
+			width: 100%;
+}
+		
+.s_parent_2 {
+	height: 250vh;
+			width: 100%;
+}
+
+.s_parent_3 {
+	height: 250vh;
+			width: 100%;
+}
+
+ 
+#foodicon,
+#musicicon,
+#transiticon {
+	height: 100px;
+	margin: 0 20px;
+}
+
+.icons div {
+	height: 100px;
+	margin: 0 20px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+		
+#tlalpan {
+			
+			width: 100%;
+			display: flex;
+			height: 100vh;
+		background-color: #FCB61B;
+			color: white;
+		}
+
+#tlalpanmap {
+		
+			height: auto;
+			align-self: center;
+		}
+
+.card {
+	width: 100%;
+			display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+			height: 100vh;
+	
+}
+
+#aeropuerto {
+	background-color: #fbb040;
+	
+}
+/*
+#aeropuerto h1 {
+	color: #f6881f;
+}*/
+
+#aeropuertomap {
+			width: 50%;
+			height: auto;
+			align-self: center;
+		}
+
+		
+		
+		
+#santafemap,
+#romamap,
+#elcentromap,
+#coyoacanmap,
+#narvartemap,
+#tepitomap,
+#sanangelmap,
+#satelitemap,
+#doctoresmap,
+#polancomap,
+#chapultepecmap,
+#juarezmap {
+			width: 50%;
+			height: auto;
+			align-self: center;
+		}
+		
+#condesamap {
+			width: 50%;
+			height: auto;
+			align-self: center;
+		}
+		
+.description {
+			width: 50vw;
+	height: 95%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 30px;
+	margin: 0;
+			background-color: white;
+			box-shadow: 0px 0px 0.2vh 0.2vw rgba(0,0,0,0.1);
+			align-self: flex-start;
+			color: black;
+			z-index: 100000;
+			/*-webkit-transform: skew(10deg, 5deg); -moz-transform: skew(10deg, 5deg); -o-transform: skew(10deg, 5deg);*/
+			
+		}
+
+.right {
+	margin-left: -5vw;
+}/*
+.description p,
+.description h1 {
+	-webkit-transform: skew(-10deg, -5deg); -moz-transform: skew(-10deg, - 5deg); -o-transform: skew(-10deg, -5deg);
+}*/
+p {
+	--x-height-multiplier: 0.375; 
+--baseline-multiplier: 0.17;
+font-family: 'PT Serif',Georgia, Cambria,"Times New Roman",Times, serif;
+letter-spacing: .01rem;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+line-height: 1.58;
+letter-spacing: -.003em;}
+
+h1 {
+	font-family: 'Barrio', cursive;
+	font-size: 3em;
+
+}
+		
+		#santafe {
+			height: 100vh;
+			width: 100%;
+			display: flex;
+			background-color: #f6d34d;
+		}
+		
+		#condesa {
+			
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #31eaf4;
+			color: white;
+		}
+		
+#doctores {width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #92aed8;
+	color: white;}
+
+		#roma {
+			
+			
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #d8dd3a;
+			color: white;
+		
+		}
+#elcentro {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #ba91b2;
+			color: white;
+		
+}
+
+#polanco {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #7dccbf;
+			color: white;
+		
+}
+
+#polanco {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #7dccbf;
+			color: white;
+		
+}
+
+#coyoacan {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #6cb8ea;
+			color: white;
+		
+}
+
+#chapultepec {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #ef8168;
+			color: white;
+		
+}
+
+#narvarte {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #d2bfdb;
+			color: white;
+		
+}
+
+#juarez {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #f09ca8;
+			color: white;
+		
+}
+
+
+#tepito {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #72c4e1;
+			color: white;
+		
+}
+
+#sanangel {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #8ff6f9;
+			color: white;
+		
+}
+
+#xochimilco {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #b6dece;
+			color: white;
+		
+}
+
+#ciudaduniversitaria {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #85ff93;
+			color: white;
+		
+}
+
+#satelite {
+			width: 100%;
+			display: flex;
+			height: 100vh;
+			background-color: #15c8f9;
+			color: white;
+		
+}
+		
+		.svgmap {
+			height: auto;
+			width: 40%;
+			
+		}
+
+footer {
+	height: 50vh;
+	background-color: darkorange;
+	color: white;
+	padding: 3vh 3vw;
+	margin: 0;
+}
+		
+
