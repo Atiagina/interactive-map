@@ -3,7 +3,7 @@
 
 var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationA = winHeight * 2;
+var animDurationA = winHeight * 2.5;
 var animDataA = {
         container: document.getElementById('aeropuertomap'),
         renderer: 'svg',
@@ -15,7 +15,7 @@ var animDataA = {
 var animA = lottie.loadAnimation(animDataA);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationA, animA, 1);
+	animatebodymovin(animDurationA, animA, 0.9);
 });
 
 //condesa
@@ -33,7 +33,7 @@ var animDataC = {
 var animC = lottie.loadAnimation(animDataC);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDuration, animC, 3.2);
+	animatebodymovin(animDuration, animC, 3.4);
 });
 
 
@@ -42,7 +42,7 @@ $( window ).scroll(function() {
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDuration = winHeight * 2;
+var animDuration = winHeight * 2.5;
 var animDataR = {
         container: document.getElementById('romamap'),
         renderer: 'svg',
@@ -53,14 +53,14 @@ var animDataR = {
 var animR = lottie.loadAnimation(animDataR);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDuration, animR, 5.2);
+	animatebodymovin(animDuration, animR, 6.4);
 });
 
 //doctores
 	
 		var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationDs = winHeight * 2;
+var animDurationDs = winHeight * 2.5;
 var animDataDs = {
         container: document.getElementById('doctoresmap'),
         renderer: 'svg',
@@ -71,7 +71,7 @@ var animDataDs = {
 var animDs = lottie.loadAnimation(animDataDs);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationDs, animDs, 8);
+	animatebodymovin(animDurationDs, animDs, 8.9);
 });
 
 //el centro
@@ -89,7 +89,7 @@ var animDataE = {
 var animE = lottie.loadAnimation(animDataE);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationE, animE, 11);
+	animatebodymovin(animDurationE, animE, 11.4);
 });
 
 //polanco
@@ -107,7 +107,7 @@ var animDataP = {
 var animP = lottie.loadAnimation(animDataP);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationP, animP, 13);
+	animatebodymovin(animDurationP, animP, 14);
 });
 
 
@@ -126,7 +126,7 @@ var animDataCn = {
 var animCn = lottie.loadAnimation(animDataCn);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationCn, animCn, 15.5);
+	animatebodymovin(animDurationCn, animCn, 16.5);
 });
 
 //chapultepec
@@ -144,7 +144,7 @@ var animDataCh = {
 var animCh = lottie.loadAnimation(animDataCh);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationCh, animCh, 18);
+	animatebodymovin(animDurationCh, animCh, 19);
 });
 		
 
@@ -152,7 +152,7 @@ $( window ).scroll(function() {
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationN = winHeight * 2;
+var animDurationN = winHeight * 2.5;
 var animDataN = {
         container: document.getElementById('narvartemap'),
         renderer: 'svg',
@@ -163,14 +163,14 @@ var animDataN = {
 var animN = lottie.loadAnimation(animDataN);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationN, animN, 20.5);
+	animatebodymovin(animDurationN, animN, 21.5);
 });
 
 //juarez
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationJ = winHeight * 2;
+var animDurationJ = winHeight * 2.5;
 var animDataJ = {
         container: document.getElementById('juarezmap'),
         renderer: 'svg',
@@ -181,7 +181,7 @@ var animDataJ = {
 var animJ = lottie.loadAnimation(animDataJ);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationJ, animJ, 23);
+	animatebodymovin(animDurationJ, animJ, 24);
 });
 
 
@@ -189,7 +189,7 @@ $( window ).scroll(function() {
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationT = winHeight * 2;
+var animDurationT = winHeight * 2.5;
 var animDataT = {
         container: document.getElementById('tepitomap'),
         renderer: 'svg',
@@ -200,7 +200,7 @@ var animDataT = {
 var animT = lottie.loadAnimation(animDataT);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationT, animT, 25.5);
+	animatebodymovin(animDurationT, animT, 26.5);
 });
 
 //santa fe
@@ -220,14 +220,14 @@ var animDataSf = {
 var animSf = lottie.loadAnimation(animDataSf);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationSf, animSf, 28);
+	animatebodymovin(animDurationSf, animSf, 29);
 });
 
 //san angel
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationSA = winHeight * 2;
+var animDurationSA = winHeight * 2.5;
 var animDataSA = {
         container: document.getElementById('sanangelmap'),
         renderer: 'svg',
@@ -238,14 +238,14 @@ var animDataSA = {
 var animSA = lottie.loadAnimation(animDataSA);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationSA, animSA, 30.3);
+	animatebodymovin(animDurationSA, animSA, 31.5);
 });
 
 //xochimilco
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationX = winHeight * 2;
+var animDurationX = winHeight * 2.5;
 var animDataX = {
         container: document.getElementById('xochimilcomap'),
         renderer: 'svg',
@@ -256,14 +256,14 @@ var animDataX = {
 var animX = lottie.loadAnimation(animDataX);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationX, animX, 32.8);
+	animatebodymovin(animDurationX, animX, 34);
 });
 		
 	//tlalpan
 	
 		var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationTl = winHeight * 2;
+var animDurationTl = winHeight * 2.5;
 var animDataTl = {
         container: document.getElementById('tlalpanmap'),
         renderer: 'svg',
@@ -274,14 +274,14 @@ var animDataTl = {
 var animTl = lottie.loadAnimation(animDataTl);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationTl, animTl, 35.2);
+	animatebodymovin(animDurationTl, animTl, 36.5);
 });
 
 //ciudad universitaria
 
 	var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationCU = winHeight * 2;
+var animDurationCU = winHeight * 2.5;
 var animDataCU = {
         container: document.getElementById('ciudadunimap'),
         renderer: 'svg',
@@ -292,14 +292,14 @@ var animDataCU = {
 var animCU = lottie.loadAnimation(animDataCU);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationCU, animCU, 38.5);
+	animatebodymovin(animDurationCU, animCU, 39);
 });
 
 //satelite
 	
 		var theWindow = $(window);
 var winHeight = theWindow.height();
-var animDurationSt = winHeight * 2;
+var animDurationSt = winHeight * 2.5;
 var animDataSt = {
         container: document.getElementById('satelitemap'),
         renderer: 'svg',
@@ -310,7 +310,7 @@ var animDataSt = {
 var animSt = lottie.loadAnimation(animDataSt);
 
 $( window ).scroll(function() {
-	animatebodymovin(animDurationSt, animSt, 40);
+	animatebodymovin(animDurationSt, animSt, 41.5);
 });
 
 
